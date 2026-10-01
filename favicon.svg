@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!--
+    Das Fraktur-h der Wortmarke auf dem Akzent. Die Glyphe ist als Pfad aus
+    unifrakturcook-700.woff2 gezogen: Ein Favicon-SVG laedt keine Webfont.
+    Die Farben sind accent und bg aus tokens.ts — eine statische Datei kann
+    keine Custom Properties aufloesen.
+  -->
+  <circle cx="16" cy="16" r="16" fill="#d4ff3a" />
+  <path transform="translate(10.169 23.934) scale(0.01331 -0.01331)" fill="#0a0a0a" d="M537 259Q365 69 315 15Q241 71 167.5 127.5Q94 184 21 240Q89 299 110.0 349.0Q131 399 132 444L137 1049Q137 1114 131.5 1204.0Q126 1294 87 1356L417 1535Q390 1415 385.5 1286.0Q381 1157 381 1024V931L576 1080Q855 815 855 478Q855 104 564 -343L415 -296Q640 -49 640 269Q640 605 380 831L377 437Q377 362 391.0 352.0Q405 342 537 259Z" />
+</svg>

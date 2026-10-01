@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heartcoders.github.io/sitemap-index.xml

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Tile Lab · heartcoders</title>
+    <meta
+      name="description"
+      content="Sechs Motive, vier Paletten, ein Boden aus vierzig Kacheln — modernistische Kachelmuster, komplett aus CSS-Verläufen."
+    />
+    <link
+      rel="icon"
+      href="/favicon.svg"
+      type="image/svg+xml"
+    />
+
+    <!--
+      Die FOUC-Unterdrueckung inline im <head>, wie auf der Hauptseite. Ein
+      Modulskript laeuft per Definition erst nach dem Parsen des Dokuments.
+      visibility, nie display: Ersteres behaelt den Platz im Layout.
+    -->
+    <style>
+      hc-tile-lab:not(:defined) {
+        visibility: hidden;
+      }
+    </style>
+    <script type="module" crossorigin src="/apps/tile-lab/assets/index-HnpQu8bS.js"></script>
+    <link rel="stylesheet" crossorigin href="/apps/tile-lab/assets/index-Bnyk2GDl.css">
+  </head>
+
+  <body>
+    <div class="stage">
+      <div
+        class="backdrop"
+        aria-hidden="true"
+      ></div>
+      <main class="app">
+        <header class="app__header">
+          <p class="kicker">[ Tile Lab ]</p>
+          <h1 class="fraktur fraktur--chrome size-display">Modernistische Kacheln</h1>
+          <p class="body-text">
+            Sechs Motive, vier Paletten. Jede Kachel ist ein Hintergrund aus vier hart
+            abgeschnittenen Verläufen — kein Canvas, kein SVG, kein Bild. Ein Motivwechsel ist ein
+            Variablenwechsel.
+          </p>
+        </header>
+
+        <hc-tile-lab
+          columns="12"
+          rows="4"
+        ></hc-tile-lab>
+
+        <footer class="app__footer">
+          <a
+            class="link-mono"
+            href="/apps"
+            >← alle Apps</a
+          >
+          <a
+            class="link-mono"
+            href="/blog/modernistische-kacheln-mit-css-grid"
+          >
+            Der Artikel dazu →
+          </a>
+        </footer>
+      </main>
+    </div>
+
+  </body>
+</html>

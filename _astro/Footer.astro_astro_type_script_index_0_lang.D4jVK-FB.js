@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/define.DCvU6Qy4.js","_astro/base-element.Cm4rcYS3.js","_astro/state.Pgeo1wuR.js","_astro/query.C-S87uso.js"])))=>i.map(i=>d[i]);
+import{_ as i}from"./preload-helper.BlTxHScW.js";const e=document.querySelector("hc-liquid-text");e&&new IntersectionObserver((r,o)=>{r.some(t=>t.isIntersecting)&&(o.disconnect(),i(()=>import("./define.DCvU6Qy4.js"),__vite__mapDeps([0,1,2,3])))},{rootMargin:"400px"}).observe(e.parentElement??e);
